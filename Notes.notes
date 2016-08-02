@@ -28,19 +28,19 @@ figcaption-65px - ukupno padding po 10px gore i dole
 
 -----------------------
 
-# ostali sajtovi se ne vidi 
 
 # ako glavni.meni.open (_modules:345) skinemo height:auto onda bude scrollabilno ali visine kao neotvoren meni
 
 ------------------------------------------------------------
-    URADITI !								
+    URADITI 								
 -----------------------------------------------------------
 
-1. popravi sto si zasro [vrati na staro]  <✓>
-2. <git>
+<✓> 1. popravi sto si zasro [vrati na staro]  
+<✓> 2. <git> 
 3. --- ORGANIZACIJA CSS-a ---
+ 		#type
 4. Sredi meni
 
-
-
+---- ! ZA FIX ----
+# ostali sajtovi se ne vidi 
 

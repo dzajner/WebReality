@@ -24,7 +24,6 @@ $(document).ready(function() {
         $(this).closest('li').toggleClass('open');
     });
 
-
     $('.o-s-link').click(function() {
         $(this).toggleClass('open');
     });

@@ -19,7 +19,8 @@ $large: 1200px;
 @import "flexisel";
 @import "remodal";
 @import "remodal-theme";
-@import "modules";
+
+@import "modules/modules";
 @import "helpers";
 
 html, body{
