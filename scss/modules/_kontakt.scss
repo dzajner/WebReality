@@ -1,0 +1,49 @@
+
+.kontakt-container{
+    background-color: $narandzasta;
+    height: 300px;
+    margin-bottom: 130px;
+    
+}
+.kontakt-podaci {
+    font-size: 1.35rem;
+    font-weight: 600;
+    max-height: 400px;
+    margin: 0;
+    padding: 2rem;
+    dd{
+        float: left;
+        margin: 0;
+        color: $svetla;
+    }
+    dt{
+        clear: both;
+    }
+}
+
+.kontakt-forma {
+    background-color: $tamna;
+    color: $narandzasta;
+    padding: 1.5rem;
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+    // box-shadow: 0px 16px 15px 1px rgba(0, 0, 0, 0.4);
+    label,
+    input,
+    textarea {
+        display: block;
+        width: 100%;
+    }
+    input,
+    textarea {
+        background-color: darken($tamna, 2.8%);
+        outline: 0;
+        border: none;
+        color: $narandzasta;
+    }
+    label {
+        color: $svetla;
+        text-align: center;
+        padding: 0.2rem;
+    }
+}

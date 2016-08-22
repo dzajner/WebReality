@@ -9,6 +9,8 @@
 # ikonice u headeru kao sprites za performanse
 # namikari header responsivnes iznad mob velicine
 # vidi postcss fore za sredjivanje css-a TREBA izmedju ostalog spajanje istih deklaracija
+# mozda namestiti custom animaciju za modal
+# zasad je equal height uradeno sa jquery, ispitati alternative
 
 - Back to top ?
 - doteraj logo jos
@@ -42,5 +44,22 @@ figcaption-65px - ukupno padding po 10px gore i dole
 4. Sredi meni
 
 ---- ! ZA FIX ----
-# ostali sajtovi se ne vidi 
+#veca donja crta u podmeniju
 
+
+-----------------------------
+ikonice za poput pakete: [] http://www.flaticon.com/packs/business-collection-3/2 []
+
+adresa
+telefoni
+e-mail
+
+viber - skype - whatsapp
+
+-----kontakt forma----
+
+ime i prezime
+e-mail
+telefon
+pitanje
+[posalji]

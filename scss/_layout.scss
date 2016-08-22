@@ -200,7 +200,7 @@
 
 .kategorija {
     overflow: hidden;
-    position: relative;
+    // position: relative;
     @include breakpoint($mobile) {
         @include col(1/2, $cycle: 2, $gutter: 3);
     }
@@ -424,10 +424,26 @@
 }
 
 // PAKETI-BOX-----------------
+.paketi{
+    @extend %layout-grupa;
+}
 .paket {
-    margin-bottom: 10px;
-    @include column(2/4, $cycle: 2, $gutter: 1.5);
+    @include breakpoint($mobile) {
+        @include col(1/2, $cycle: 2);
+    }
     @include breakpoint(1000px) {
-        @include column(1/4, $uncycle: 2, $gutter: 1);
+        @include col(1/4, $uncycle: 2, $gutter: 1);
+    }
+}
+// KONTAKT --------------------------------
+.kontakt-podaci{
+    @include breakpoint($medium) {
+        @include span(3/7);
+    }
+}
+.kontakt-forma{
+    @include breakpoint($medium) {
+        @include span(3/7);
+        @include shift(0.05);
     }
 }

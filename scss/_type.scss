@@ -38,12 +38,9 @@ p {
     @include breakpoint($large) {
         font-size: 1.2rem;
     }
-    &:active {
-        color: $narandzasta;
-    }
-    &:hover {
-        color: $narandzasta;
-    }
+}
+.gornji-submeni a:hover{
+    color: $narandzasta;
 }
 
 .gornji-meni .o-s-link {
@@ -235,9 +232,6 @@ p {
     font-size: 1.2rem;
     padding-bottom: 1.4rem;
     color: $svetla;
-    &:hover {
-        color: $narandzasta;
-    }
 }
 
 // PAKETI-BOX-----------------
